@@ -3,7 +3,7 @@
 require('parser.php');
 
 define('BOT_TOKEN', 'SEU TOKEN');
-define('API_URL', 'https://api.telegram.org/bot'1316305375:AAHn3qkfpj6MQS3q_xO1bqd9TK1y_WgYwxQ'/');
+define('API_URL', 'https://api.telegram.org/bot'1910606008:AAES_7GZtbdHiwmLbipPd2z5nqvsWYopEiw'/');
 
 function processMessage($message) {
   // processa a mensagem recebida
