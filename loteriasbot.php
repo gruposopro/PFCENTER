@@ -15,7 +15,7 @@ function processMessage($message) {
 
     if (strpos($text, "/start") === 0) {
 		//envia a mensagem ao usuário
-      sendMessage("sendMessage", array('561907458' => $chat_id, "text" => 'Olá, '. $message['from']['first_name'].
+      sendMessage("sendMessage", array('721984585' => $chat_id, "text" => 'Olá, '. $message['from']['first_name'].
 		'! Eu sou um bot que informa o resultado do último sorteio da Mega Sena. Será que você ganhou dessa vez? Para começar, escolha qual loteria você deseja ver o resultado', 'reply_markup' => array(
         'keyboard' => array(array('Mega-Sena', 'Quina'),array('Lotofácil','Lotomania')),
         'one_time_keyboard' => true)));
